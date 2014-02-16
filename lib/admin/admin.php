@@ -359,7 +359,7 @@ function wh_get_keys_for_duplicates( $array ) {
 }
 
 /**
- * Validate all options
+ * Sanitize all options
  *
  * @package WP Hotkeys
  * @since   0.9.0
@@ -377,7 +377,7 @@ function wh_settings_validation( $orig_options ) {
          
         // Check to see if the current option has a value. If so, sanitize for alphanumeric only
         if ( isset( $orig_options[ $option ] ) )
-   			$options[ $option ] = preg_replace('/[^a-zA-Z0-9]+/', '', $orig_options[ $option ] );
+   			$options[ $option ] = preg_replace('/[^a-zA-Z0-9]+/', '', wp_kses_post( $orig_options[ $option ] ) );
 
     }
     		
