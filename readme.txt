@@ -39,6 +39,9 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 2. Hotkey hints in the dashboard
 
 == Changelog ==
+= 0.9.3 =
+* Fixed array initialization issue [], instead of array()
+
 = 0.9.2 =
 * Fixed JS error for undefined subMenuLink
 
@@ -50,6 +53,9 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 * Initial release.
 
 == Upgrade Notice ==
+= 0.9.3 =
+* Fixed array initialization issue [], instead of array()
+
 = 0.9.2 =
 * Fixed JS error for undefined subMenuLink
 
