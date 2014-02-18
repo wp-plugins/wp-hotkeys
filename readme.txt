@@ -41,6 +41,7 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 == Changelog ==
 = 0.9.1 =
 * Added video to readme
+* Fixed incorrect initialization of array on line 103 of admin.php
 
 = 0.9.0 =
 * Initial release.
@@ -48,6 +49,7 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 == Upgrade Notice ==
 = 0.9.1 =
 * Added video to readme
+* Fixed incorrect initialization of array on line 103 of admin.php
 
 = 0.9.0 =
 * Initial release.
