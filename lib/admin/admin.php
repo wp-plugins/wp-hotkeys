@@ -100,7 +100,7 @@ function wh_register_settings() {
 	// 2. Do hotkey settings for each admin menu item
 
 	// Check for duplicates
-	$duplicates = $sub_duplicates = [];
+	$duplicates = $sub_duplicates = array();
 	if ( $menu && $submenu ) {
 
 		foreach ( $wh_menu_items as $item_file => $item ) {
