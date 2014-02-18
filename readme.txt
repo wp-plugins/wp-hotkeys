@@ -4,7 +4,7 @@ Tags: hotkeys, keyboard, shortcuts, admin, dashboard, jQuery, javascript, wordpr
 Donate link: http://mightyminnow.com
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 0.9.1
+Stable tag: 0.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 2. Hotkey hints in the dashboard
 
 == Changelog ==
+= 0.9.2 =
+* Fixed JS error for undefined subMenuLink
+
 = 0.9.1 =
 * Added video to readme
 * Fixed incorrect initialization of array on line 103 of admin.php
@@ -47,6 +50,9 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 * Initial release.
 
 == Upgrade Notice ==
+= 0.9.2 =
+* Fixed JS error for undefined subMenuLink
+
 = 0.9.1 =
 * Added video to readme
 * Fixed incorrect initialization of array on line 103 of admin.php
