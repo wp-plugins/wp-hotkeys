@@ -279,7 +279,7 @@ function wh_output_fields( $field ) {
 				<option value="ctrl" <?php selected( $options[ $modifier_id ], 'ctrl' ); ?>><?php _e( 'Control', 'wp-hotkeyps' ); ?></option>
 				<option value="alt" <?php selected( $options[ $modifier_id ], 'alt' ); ?>><?php _e( 'Option / Alt', 'wp-hotkeys' ); ?></option>
 			</select>
-			<?
+			<?php
 			break;
 
 		// Checkbox
