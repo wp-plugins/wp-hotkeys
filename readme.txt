@@ -4,7 +4,7 @@ Tags: hotkeys, keyboard, shortcuts, admin, dashboard, jQuery, javascript, wordpr
 Donate link: http://mightyminnow.com
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 0.9.3
+Stable tag: 0.9.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 2. Hotkey hints in the dashboard
 
 == Changelog ==
+= 0.9.4 =
+* Switched short PHP opening tag <? to full tag <?php
+
 = 0.9.3 =
 * Fixed array initialization issue [], instead of array()
 
@@ -53,6 +56,9 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 * Initial release.
 
 == Upgrade Notice ==
+= 0.9.4 =
+* Switched short PHP opening tag <? to full tag <?php
+
 = 0.9.3 =
 * Fixed array initialization issue [], instead of array()
 
