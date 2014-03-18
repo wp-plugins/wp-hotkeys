@@ -350,12 +350,23 @@ function wh_get_keys_for_duplicates( $array ) {
 
 	$counts = array_count_values( $array );
 	
-	$filtered = array_filter( $counts, function( $value ) {
-	    return $value != 1;
-	});
+	$filtered = array_filter( $counts, 'not_one' );
 
 	return array_keys( array_intersect( $array, array_keys( $filtered ) ) );
 
+}
+
+/**
+ * Determine whether value is one or not
+ *
+ * @package WP Hotkeys
+ * @since   0.9.5
+ *
+ * @param   int $value Number value for comparison
+ * @return  bool True if not equal to one
+ */
+function not_one( $value ) {
+    return $value != 1;
 }
 
 /**
