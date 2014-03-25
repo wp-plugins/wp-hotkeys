@@ -279,7 +279,7 @@ function wh_output_fields( $field ) {
 				<option value="ctrl" <?php selected( $options[ $modifier_id ], 'ctrl' ); ?>><?php _e( 'Control', 'wp-hotkeyps' ); ?></option>
 				<option value="alt" <?php selected( $options[ $modifier_id ], 'alt' ); ?>><?php _e( 'Option / Alt', 'wp-hotkeys' ); ?></option>
 			</select>
-			<?
+			<?php
 			break;
 
 		// Checkbox
@@ -350,23 +350,12 @@ function wh_get_keys_for_duplicates( $array ) {
 
 	$counts = array_count_values( $array );
 	
-	$filtered = array_filter( $counts, 'not_one' );
+	$filtered = array_filter( $counts, function( $value ) {
+	    return $value != 1;
+	});
 
 	return array_keys( array_intersect( $array, array_keys( $filtered ) ) );
 
-}
-
-/**
- * Determine whether value is one or not
- *
- * @package WP Hotkeys
- * @since   0.9.5
- *
- * @param   int $value Number value for comparison
- * @return  bool True if not equal to one
- */
-function not_one( $value ) {
-    return $value != 1;
 }
 
 /**
