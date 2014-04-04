@@ -4,7 +4,7 @@ Tags: hotkeys, keyboard, shortcuts, admin, dashboard, jQuery, javascript, wordpr
 Donate link: http://mightyminnow.com
 Requires at least: 3.0
 Tested up to: 3.8.1
-Stable tag: 0.9.6
+Stable tag: 0.9.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,10 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 2. Hotkey hints in the dashboard
 
 == Changelog ==
+= 0.9.7 =
+* Removed anonymous function call for older PHP versions.
+* Improved duplicate hotkey detection.
+
 = 0.9.6 =
 * Same as 0.9.5 since changes didn't upload.
 
@@ -62,6 +66,10 @@ WP Hotkeys settings can be found at *Settings > WP Hotkeys*.
 * Initial release.
 
 == Upgrade Notice ==
+= 0.9.7 =
+* Removed anonymous function call for older PHP versions.
+* Improved duplicate hotkey detection.
+
 = 0.9.6 =
 * Same as 0.9.5 since changes didn't upload.
 
