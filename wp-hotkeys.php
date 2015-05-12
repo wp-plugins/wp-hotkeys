@@ -3,7 +3,8 @@
  * Plugin Name: WP Hotkeys
  * Plugin URI:  http://mightyminnow.com
  * Description: Provides keyboard shortcuts to quickly navigate the WordPress dashboard.
- * Version:     0.9.7
+ * Version:     0.9.8
+1.9.7
  * Author:      MIGHTYminnow
  * Author URI:  http://mightyminnow.com
  * License:     GPLv2+
